@@ -158,6 +158,7 @@
 				TargetAttributes = {
 					4672AD9E1CD9F95A00BAD572 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -348,6 +349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.msapsford.pagedTabsExample;
 				PRODUCT_NAME = Example;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -361,6 +363,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.msapsford.pagedTabsExample;
 				PRODUCT_NAME = Example;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

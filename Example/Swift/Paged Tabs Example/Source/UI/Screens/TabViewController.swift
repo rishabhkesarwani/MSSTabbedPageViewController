@@ -13,20 +13,20 @@ class TabViewController: MSSTabbedPageViewController {
     
     // MARK: MSSPageViewControllerDataSource
     
-    override func viewControllersForPageViewController(pageViewController: MSSPageViewController) -> [UIViewController]? {
-        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+    override func viewControllers(for pageViewController: MSSPageViewController) -> [UIViewController]? {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         
-        let viewControllers = [storyboard.instantiateViewControllerWithIdentifier("ChildViewController"),
-                               storyboard.instantiateViewControllerWithIdentifier("ChildViewController"),
-                               storyboard.instantiateViewControllerWithIdentifier("ChildViewController"),
-                               storyboard.instantiateViewControllerWithIdentifier("ChildViewController"),
-                               storyboard.instantiateViewControllerWithIdentifier("ChildViewController")]
+        let viewControllers = [storyboard.instantiateViewController(withIdentifier: "ChildViewController"),
+                               storyboard.instantiateViewController(withIdentifier: "ChildViewController"),
+                               storyboard.instantiateViewController(withIdentifier: "ChildViewController"),
+                               storyboard.instantiateViewController(withIdentifier: "ChildViewController"),
+                               storyboard.instantiateViewController(withIdentifier: "ChildViewController")]
         return viewControllers
     }
     
     // MARK: MSSTabBarViewDataSource
     
-    override func tabBarView(tabBarView: MSSTabBarView, populateTab tab: MSSTabBarCollectionViewCell, atIndex index: Int) {
+    override func tabBarView(_ tabBarView: MSSTabBarView, populateTab tab: MSSTabBarCollectionViewCell, at index: Int) {
         
         tab.title = String(format: "Page %d", index + 1)
     }
