@@ -12,13 +12,14 @@ import MSSTabbedPageViewController
 class TabViewController: MSSTabbedPageViewController {
     
     // MARK: MSSPageViewControllerDataSource
+    @IBAction func menuButtonAction(_ sender: Any) {
+        print("Hello world!")
+    }
     
     override func viewControllers(for pageViewController: MSSPageViewController) -> [UIViewController]? {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         
         let viewControllers = [storyboard.instantiateViewController(withIdentifier: "ChildViewController"),
-                               storyboard.instantiateViewController(withIdentifier: "ChildViewController"),
-                               storyboard.instantiateViewController(withIdentifier: "ChildViewController"),
                                storyboard.instantiateViewController(withIdentifier: "ChildViewController"),
                                storyboard.instantiateViewController(withIdentifier: "ChildViewController")]
         return viewControllers
@@ -28,6 +29,16 @@ class TabViewController: MSSTabbedPageViewController {
     
     override func tabBarView(_ tabBarView: MSSTabBarView, populateTab tab: MSSTabBarCollectionViewCell, at index: Int) {
         
-        tab.title = String(format: "Page %d", index + 1)
+        tab.title = tabTitles(for: index)
+    }
+    
+    func tabTitles(for index: Int) -> String {
+        let tabTitles = [
+            "Regular Cleaning",
+            "Deep Cleaning",
+            "Subscription"
+        ]
+        
+        return tabTitles[index]
     }
 }

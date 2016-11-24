@@ -14,6 +14,8 @@
 		4672ADC71CD9FE8400BAD572 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672ADC61CD9FE8400BAD572 /* TabViewController.swift */; };
 		4672ADC91CD9FF5900BAD572 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672ADC81CD9FF5900BAD572 /* ChildViewController.swift */; };
 		C679EFCE9BC3463A06015371 /* Pods_Paged_Tabs_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3A00F3F572B9062B781022 /* Pods_Paged_Tabs_Example.framework */; };
+		E44BF6AF1DE708CA001BA0E8 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44BF6AE1DE708CA001BA0E8 /* RightViewController.swift */; };
+		E44BF6B11DE70943001BA0E8 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44BF6B01DE70943001BA0E8 /* SlideMenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		4672ADBB1CD9FD0700BAD572 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4672ADC61CD9FE8400BAD572 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		4672ADC81CD9FF5900BAD572 /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		E44BF6AE1DE708CA001BA0E8 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		E44BF6B01DE70943001BA0E8 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
 		F7A827714393DB8E85C77573 /* Pods-Paged Tabs Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paged Tabs Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paged Tabs Example/Pods-Paged Tabs Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +106,8 @@
 				4672ADBB1CD9FD0700BAD572 /* Main.storyboard */,
 				4672ADC61CD9FE8400BAD572 /* TabViewController.swift */,
 				4672ADC81CD9FF5900BAD572 /* ChildViewController.swift */,
+				E44BF6AE1DE708CA001BA0E8 /* RightViewController.swift */,
+				E44BF6B01DE70943001BA0E8 /* SlideMenuController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -247,6 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4672ADC71CD9FE8400BAD572 /* TabViewController.swift in Sources */,
+				E44BF6B11DE70943001BA0E8 /* SlideMenuController.swift in Sources */,
+				E44BF6AF1DE708CA001BA0E8 /* RightViewController.swift in Sources */,
 				4672ADBF1CD9FD0700BAD572 /* AppDelegate.swift in Sources */,
 				4672ADC91CD9FF5900BAD572 /* ChildViewController.swift in Sources */,
 			);
