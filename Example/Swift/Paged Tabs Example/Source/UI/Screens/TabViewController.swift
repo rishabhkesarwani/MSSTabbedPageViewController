@@ -11,10 +11,11 @@ import MSSTabbedPageViewController
 
 class TabViewController: MSSTabbedPageViewController {
     
-    // MARK: MSSPageViewControllerDataSource
     @IBAction func menuButtonAction(_ sender: Any) {
-        print("Hello world!")
+        self.slideMenuController()?.openRight()
     }
+    
+    // MARK: MSSPageViewControllerDataSource
     
     override func viewControllers(for pageViewController: MSSPageViewController) -> [UIViewController]? {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
