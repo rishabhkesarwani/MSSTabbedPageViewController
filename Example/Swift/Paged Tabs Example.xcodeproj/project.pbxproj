@@ -14,13 +14,10 @@
 		4672ADC71CD9FE8400BAD572 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672ADC61CD9FE8400BAD572 /* TabViewController.swift */; };
 		4672ADC91CD9FF5900BAD572 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672ADC81CD9FF5900BAD572 /* ChildViewController.swift */; };
 		C679EFCE9BC3463A06015371 /* Pods_Paged_Tabs_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3A00F3F572B9062B781022 /* Pods_Paged_Tabs_Example.framework */; };
-		E40CBB2C1DE811AC003D1088 /* StepCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CBB2B1DE811AC003D1088 /* StepCollectionViewFlowLayout.swift */; };
-		E40CBB2E1DE81545003D1088 /* AddressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CBB2D1DE81545003D1088 /* AddressCollectionViewCell.swift */; };
 		E40CBB321DE83283003D1088 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CBB311DE83282003D1088 /* Address.swift */; };
 		E40CBB351DE8497A003D1088 /* AddAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CBB341DE8497A003D1088 /* AddAddressViewController.swift */; };
 		E44BF6AF1DE708CA001BA0E8 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44BF6AE1DE708CA001BA0E8 /* RightViewController.swift */; };
 		E44BF6B11DE70943001BA0E8 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44BF6B01DE70943001BA0E8 /* SlideMenuController.swift */; };
-		E4A3AFEA1DE78FC000232262 /* CollectionViewPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3AFE91DE78FC000232262 /* CollectionViewPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,13 +31,10 @@
 		4672ADBB1CD9FD0700BAD572 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4672ADC61CD9FE8400BAD572 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		4672ADC81CD9FF5900BAD572 /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
-		E40CBB2B1DE811AC003D1088 /* StepCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
-		E40CBB2D1DE81545003D1088 /* AddressCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressCollectionViewCell.swift; sourceTree = "<group>"; };
 		E40CBB311DE83282003D1088 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		E40CBB341DE8497A003D1088 /* AddAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAddressViewController.swift; sourceTree = "<group>"; };
 		E44BF6AE1DE708CA001BA0E8 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
 		E44BF6B01DE70943001BA0E8 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
-		E4A3AFE91DE78FC000232262 /* CollectionViewPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewPicker.swift; sourceTree = "<group>"; };
 		F7A827714393DB8E85C77573 /* Pods-Paged Tabs Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paged Tabs Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paged Tabs Example/Pods-Paged Tabs Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +99,6 @@
 		4672ADB91CD9FD0700BAD572 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				E40CBB331DE848EF003D1088 /* Address Collection */,
 				4672ADBA1CD9FD0700BAD572 /* Screens */,
 			);
 			path = UI;
@@ -140,17 +133,6 @@
 				2A3A00F3F572B9062B781022 /* Pods_Paged_Tabs_Example.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E40CBB331DE848EF003D1088 /* Address Collection */ = {
-			isa = PBXGroup;
-			children = (
-				E4A3AFE91DE78FC000232262 /* CollectionViewPicker.swift */,
-				E40CBB2B1DE811AC003D1088 /* StepCollectionViewFlowLayout.swift */,
-				E40CBB2D1DE81545003D1088 /* AddressCollectionViewCell.swift */,
-			);
-			name = "Address Collection";
-			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,14 +260,11 @@
 			files = (
 				E40CBB321DE83283003D1088 /* Address.swift in Sources */,
 				E40CBB351DE8497A003D1088 /* AddAddressViewController.swift in Sources */,
-				E4A3AFEA1DE78FC000232262 /* CollectionViewPicker.swift in Sources */,
-				E40CBB2C1DE811AC003D1088 /* StepCollectionViewFlowLayout.swift in Sources */,
 				4672ADC71CD9FE8400BAD572 /* TabViewController.swift in Sources */,
 				E44BF6B11DE70943001BA0E8 /* SlideMenuController.swift in Sources */,
 				E44BF6AF1DE708CA001BA0E8 /* RightViewController.swift in Sources */,
 				4672ADBF1CD9FD0700BAD572 /* AppDelegate.swift in Sources */,
 				4672ADC91CD9FF5900BAD572 /* ChildViewController.swift in Sources */,
-				E40CBB2E1DE81545003D1088 /* AddressCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
