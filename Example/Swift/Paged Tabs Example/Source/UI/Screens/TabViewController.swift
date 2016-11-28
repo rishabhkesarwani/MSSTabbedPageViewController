@@ -29,7 +29,6 @@ class TabViewController: MSSTabbedPageViewController {
     // MARK: MSSTabBarViewDataSource
     
     override func tabBarView(_ tabBarView: MSSTabBarView, populateTab tab: MSSTabBarCollectionViewCell, at index: Int) {
-        
         tab.title = tabTitles(for: index)
     }
     
